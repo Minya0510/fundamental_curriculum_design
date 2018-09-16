@@ -14,12 +14,12 @@ bool get_two_number(DATA_TYPE a[]){
         }
     }
     return true;
-}
+}       // get two numbers
 
 DATA_TYPE sum_two_number(DATA_TYPE a, DATA_TYPE b){
     return a+b;
-}
+}       // sum
 
 void put_one_number(DATA_TYPE a, DATA_TYPE b, DATA_TYPE c){
     std::cout << a << " + " << b << " = " << c << std::endl;
-}
+}       // put one number
